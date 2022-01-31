@@ -1,0 +1,12 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.container{
+    margin: 20px;
+}
+img{
+    border-radius: 10px;
+}

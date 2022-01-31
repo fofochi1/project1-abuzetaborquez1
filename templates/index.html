@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Movie Page</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Movie Overview</h1>
+        <h2>{{movie_details["Name"]}}</h2>
+        <h3>{{movie_details["Overview"]}}</h3>
+        <h3>{{movie_details["Genre"]}}</h3>
+        <div class="container">
+            <img src="{{movie_details['Image']}}" alt="">
+        </div>
+        <br>
+        <a href="{{page_url}}">Wiki</a>
+    </body>
+</html>
